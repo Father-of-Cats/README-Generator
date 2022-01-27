@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+const fs = require('fs')
 // TODO: Create an array of questions for user input
 const questions = [
         {
@@ -42,14 +43,24 @@ const questions = [
             type: 'input',
             name: 'contribution',
             message: 'What should steps need to be taken to become a contributor?'
-        },
+        }
     ];
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
+        if (err){
+            return console.log(err);
+        }
+        console.log("You did it! You created a README!")
+    })
+}
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
+    .then(function(response) {
+    console.log(response)
+    }) 
 };
 // Function call to initialize app
 init();
