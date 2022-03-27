@@ -1,8 +1,8 @@
-# Hunter's Portfolil
+# Example
 ## License
-[![License: ](https://img.shields.io/badge/License--yellow.svg)](https://opensource.org/licenses/)
+[![License: GPL](https://img.shields.io/badge/License-GPL-yellow.svg)](https://opensource.org/licenses/GPL)
 ## Description
-A portfolio featuring some of my recent work.
+This Project is an Example
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -12,11 +12,11 @@ A portfolio featuring some of my recent work.
 * [Username](#username)
 * [Questions](#questions)
 ## Installation
-You can clone the repository.
+You just gotta do it
 ## Usage
-This portfolio just shows what projects I've worked on that are relevant to the work I like to do.
+this app is for use as an example
 ## Contributing
-contact me.
+shoot me a message
 ## Username
 [father-of-cats](https://www.github.com/father-of-cats)
 ## Questions
